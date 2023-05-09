@@ -15,7 +15,7 @@ import random
 tqdm.pandas()
 
 # FPATH = '/Users/nahal/Documents/Ph.D./ML on Graphs/Project/graphmaster-drew/all_with_filtered_anotations_since1998.txt'
-FPATH = '/mnt/rstor/CSE_CSDS_VXC204/nxs814/all_with_filtered_anotations_since1998.txt'
+FPATH = '/mnt/rstor/CSE_CSDS_VXC204/nxs814/MLonGraphs/all_with_filtered_anotations_since1998.txt'
 
 
 def parse(fpath=FPATH, nrows=1000) -> pd.DataFrame:
