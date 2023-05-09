@@ -119,7 +119,7 @@ class GCN(torch.nn.Module):
         
         return x
 
-model = GCN().to('cpu')
+model = GCN().to('cuda')
 print(model)
 
 optimizer = torch.optim.Adam(model.parameters(), lr=CONFIG['lr'], weight_decay=1e-3)  # Add weight_decay for regularization
